@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/material_on_surface_stroke"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardElevation="1dp"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/bottomshett_poemname"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:id="@+id/bottomsheet_poeminfo"
+                android:text="Bugun kechasi uyqi yoq boshim ogrigan odrim qolmagan madorim qolmagan ewit jonginam, Siqlib ichtim biroz qolimdagi papiros sogintirish sanga mos sanga xos"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+   <LinearLayout
+       android:backgroundTint="@color/material_on_surface_stroke"
+       android:paddingBottom="20dp"
+       android:layout_gravity="center_horizontal"
+       android:gravity="center_horizontal"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <androidx.cardview.widget.CardView
+           android:id="@+id/btn_send"
+           android:layout_margin="20dp"
+           app:cardCornerRadius="10dp"
+           android:padding="10dp"
+           app:cardBackgroundColor="@color/white"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:padding="10dp"
+               android:src="@drawable/ulashish"
+               android:layout_width="50dp"
+               android:layout_height="50dp"/>
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/btn_addloved"
+           android:layout_margin="20dp"
+           app:cardCornerRadius="10dp"
+           android:padding="10dp"
+           app:cardBackgroundColor="@color/white"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:id="@+id/selected"
+               android:padding="10dp"
+               android:src="@drawable/selected"
+               android:layout_width="50dp"
+               android:layout_height="50dp"/>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:id="@+id/btn_share"
+           android:layout_margin="20dp"
+           app:cardCornerRadius="10dp"
+           android:padding="10dp"
+           app:cardBackgroundColor="@color/white"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:padding="10dp"
+               android:src="@drawable/ulashish_social"
+               android:layout_width="50dp"
+               android:layout_height="50dp"/>
+       </androidx.cardview.widget.CardView>
+       <androidx.cardview.widget.CardView
+           android:id="@+id/btn_copy"
+           android:layout_margin="20dp"
+           app:cardCornerRadius="10dp"
+           android:padding="10dp"
+           app:cardBackgroundColor="@color/white"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:padding="10dp"
+               android:src="@drawable/icons8_copy_48px"
+               android:layout_width="50dp"
+               android:layout_height="50dp"/>
+       </androidx.cardview.widget.CardView>
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

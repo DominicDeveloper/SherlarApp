@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SherlarApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sms_nshe_rlar">sms\nshe\'rlar</string>
+    <string name="yangilar">Yangilar</string>
+    <string name="imagenews">imagenews</string>
+    <string name="_202">202</string>
+    <string name="ta">ta</string>
+    <string name="saralanganlar">saralanganlar</string>
+    <string name="_2">2</string>
+    <string name="saralanganlar_2">Saralanganlar</string>
+    <string name="do_slik_she_rlari">Do`slik she\'rlari</string>
+</resources>
